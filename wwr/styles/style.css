@@ -1,0 +1,117 @@
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: left;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+#background {
+    height: 725px;
+}
+body {
+    background-color: white; 
+}
+header {
+    background-color:lightblue;
+}
+nav a:hover {
+    background-color: white;
+}
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}    
+footer{background-attachment: fixed;}
+
+footer{background-color: lightblue;}
+
+.icon {
+    width: 80px;
+}
+  
+nav a {
+    text-align: center;
+    color: #5a4343;
+    text-decoration: none;
+}         
+nav a {
+    background-color: lightblue;
+    color: white;
+}    
+
+nav a:hover {
+    background-color: black;
+    color: #faf7f4;
+}    
+        
+
+ #hero-msg h1, hero-msg h4 {text-align: center;}
+
+ .button-box{text-align: center;}
+
+ main section{text-align: center;}
+
+ .book:hover, .join:hover{background-color: rgb(174, 186, 197);}
+
+.home-title{
+    background-color: black;
+    color: white;
+}    
+
+h4{
+    background-color: black;
+    color: white
+}    
+
+.book, .join{text-align: center; color: yellowgreen;text-decoration: none;}
+
+.book, .join{
+    background-color: black;
+    color: #d9c2a3;
+}    
+
+.book:hover, .join:hover{
+    background-color: rgb(90, 161, 202);
+    color: #615444;
+}    
+
+#background{background-color: #d4cbcb;}
+
+.mgs {
+    background-color: rgb(71, 157, 163);
+    color: #8f806e;
+}    
+
+.msg h2{
+    background-color: rgb(238, 233, 233);
+    color: #2c2924;
+}     
+
+.msg p {
+    background-color: rgb(63, 50, 50);
+    color: #d9c2a3;
+}    
+
+footer{text-align: center;color: black;text-decoration: none;} 
+
+footer a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}    
+
+footer a {
+    background-color: black;
+    color: white;
+}    
+
+footer p {
+    font-size: 1.2em;
+}    
+footer p a:hover {
+    text-decoration: underline;
+}    
