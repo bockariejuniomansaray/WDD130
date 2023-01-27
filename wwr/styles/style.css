@@ -8,6 +8,11 @@ body {
 #background {
     height: 725px;
 }
+
+.icon {
+    width: 80px;
+}
+                
 body {
     background-color: white; 
 }
