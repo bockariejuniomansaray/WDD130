@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,500&family=Tajawal:wght@200&display=swap');
 body {
     max-width: 1600px;
-    margin: 0 auto;
-}
-#background {
-    height: 725px;
+    margin: 0 auto;background-color: white; 
 }
 
 .icon {
@@ -12,28 +9,27 @@ body {
 }
        
 .home-title {
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
-    font-size: 2em;
-}
-
-.book, .join{
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif; background-color: white; color: black; text-decoration: none;
     font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 10px;
 }
 
 .msg p{
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
-    font-size: .8em;
+    font-size: .8em;    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding-bottom: 15px; background-color: rgb(111, 115, 100);
+    color: white;
 }
 
 .msg {
     background-color: #6f7364;
-    line-height: 1.5em;
-  }
-
-  .msg {
-    background-color: #6f7364;
-    line-height: 1.5em;
+    line-height: 1.5em; text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
   }
 
   #logo_link{
@@ -43,18 +39,17 @@ body {
     padding-top: 5px;
 }
 
-nav a{
-    text-decoration: none;
-    color: #fcfbfb;
-    text-align: center;
-    padding: 35px;
-}
-
 .book, .join{
     text-decoration: none;
     color: #fcfbfb;
     text-align: center;
+    padding: 15px 30px;background-color: lightskyblue;text-align: center; color: yellowgreen;text-decoration: none; background-color: black;
+    color: white;  text-decoration: none;
+    font-size: 18px;
     padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px; font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 18px;
 }
 
 .icon{
@@ -63,26 +58,11 @@ nav a{
     text-align: center;
     padding-top: 10px;
 }
-
-.msg{
-    text-decoration: none;
-    color: #fcfbfb;
-    text-align: center;
-    padding: 35px;
-}
-
-.msg p{
-    text-decoration: none;
-    color: #fcfbfb;
-    text-align: center;
-    padding-bottom: 15px;
-}
-
 footer{
-    text-decoration: none;
-    color: #fcfbfb;
-    text-align: center;
-    padding: 25px 50px;
+    background-attachment: fixed;background-color: lightblue;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 200px;text-decoration: none;
 }
 
 footer .social img{
@@ -100,55 +80,29 @@ footer .social img{
     padding: 15px 30px;
 }
 
-body {
-    background-color: white; 
-}
+
 header {
     background-color:lightblue;
 }
-nav a:hover {
-    background-color: white;
-}
-
-.book, .join{background-color: lightskyblue;}
 
 .book:hover, .book:hover{background-color: black;}
+
 #background{background-color: lightseagreen;}
-
-.msg{background-color: #2c2924;}
-
-footer{background-color: lightblue;}
 
 
 nav a:hover {
     background-color: black;
-    color: #d9c2a3;
-}    
-footer{background-attachment: fixed;}
-
-footer{background-color: lightblue; color: #2c2924; text-decoration: none;
-    font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 200px;}
+    color: #d9c2a3;background-color: white;
+}
 
 .icon {
     width: 80px;
 }
   
 nav a {
-    text-align: center;
-    color: #5a4343;
-    text-decoration: none;
-}         
-nav a {
-    background-color: lightblue;
-    color: white;
-}    
-
-nav a:hover {
-    background-color: black;
-    color: #faf7f4;
-}    
+    text-decoration: none;background-color: lightblue;
+    color: white;padding: 35px;
+}
         
 nav a{text-align: center;}
 
@@ -158,28 +112,9 @@ nav a{text-align: center;}
 
  main section{text-align: center;}
 
- .book:hover, .join:hover{background-color: rgb(174, 186, 197);}
-
-.home-title{
-    background-color: white; color: black; text-decoration: none;
-    font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 10px;
-}
 h4{
     background-color: white; color: black;
-}    
-
-.book, .join{text-align: center; color: yellowgreen;text-decoration: none;}
-
-.book, .join{
-    background-color: black;
-    color: white;  text-decoration: none;
-    font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
-}    
+}   
 
 .book:hover, .join:hover{
     background-color: rgb(90, 161, 202);
@@ -189,22 +124,10 @@ h4{
     margin-top: 50px;
 }    
 
-.mgs {
-    background-color: rgb(71, 157, 163);
-    color: #8f806e;
-}    
-
 .msg h2{
-    background-color: #2c2924;
+    background-color: rgb(111, 115, 100);
     color: white;
-}     
-
-.msg p {
-    background-color: #2c2924;
-    color: white;
-}    
-
-footer{text-align: center;color: black;text-decoration: none;} 
+}
 
 footer a:hover {
     background-color: black;
@@ -212,15 +135,12 @@ footer a:hover {
 }    
 
 footer a {
-    background-color: white;
-    color: lightskyblue;
-}    
-
-footer a{text-align: center; color: #2c2924;text-decoration: none;}
+    background-color: white;text-decoration: none;
+}
 
 footer p {
     font-size: 1.2em;
 }    
 footer p a:hover {
     text-decoration: underline;
-}    
+}
