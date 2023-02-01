@@ -58,6 +58,11 @@ body {background-color: white;
     border-radius: 5px; font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 18px;
 }
+
+.card-img{border: 10px solid #d9c2a3;}
+
+main section img{box-sizing: border-box;}
+
 footer{
     background-attachment: fixed;background-color: lightblue;
     font-size: 18px;
