@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,500&family=Tajawal:wght@200&display=swap');
-body {
-    max-width: 1600px;
-    margin: 0 auto;background-color: white; 
+
+body {background-color: white; 
 }
 
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    }
+
 .icon {
-    width: 80px;
+    width: 80px; text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding-top: 10px;
 }
        
 .home-title {
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif; background-color: white; color: black; text-decoration: none;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif; color: black; text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 10px;
@@ -31,8 +38,8 @@ body {
     text-align: center;
     padding: 35px;
   }
-
-  #logo_link{
+.logo { width: 80px; }
+#logo_link{
     text-decoration: none;
     color: #fcfbfb;
     text-align: center;
@@ -51,13 +58,6 @@ body {
     border-radius: 5px; font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 18px;
 }
-
-.icon{
-    text-decoration: none;
-    color: #fcfbfb;
-    text-align: center;
-    padding-top: 10px;
-}
 footer{
     background-attachment: fixed;background-color: lightblue;
     font-size: 18px;
@@ -73,7 +73,6 @@ footer .social img{
 }
 
 .rivers-card, .camping-card, .rapids-card{
-    background-color: #d9c2a3;
     color: black;
     text-decoration: none;
     font-size: 18px;
@@ -95,25 +94,20 @@ nav a:hover {
     color: #d9c2a3;background-color: white;
 }
 
-.icon {
-    width: 80px;
-}
+
   
 nav a {
-    text-decoration: none;background-color: lightblue;
-    color: white;padding: 35px;
+    text-decoration: none;
+    color: white;padding: 35px; text-align: center;
 }
-        
-nav a{text-align: center;}
-
+hero-img{width: 100%;}
  #hero-msg h1, #hero-msg h4 {text-align: center;}
 
  .button-box{text-align: center;}
 
  main section{text-align: center;}
 
-h4{
-    background-color: white; color: black;
+h4{ color: black;
 }   
 
 .book:hover, .join:hover{
@@ -135,7 +129,7 @@ footer a:hover {
 }    
 
 footer a {
-    background-color: white;text-decoration: none;
+    color: #000;text-decoration: none;
 }
 
 footer p {
