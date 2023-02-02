@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,500&family=Tajawal:wght@200&display=swap');
 
-body {background-color: white; 
+body {background-color: white;  font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 
 #content {
@@ -81,7 +87,7 @@ footer .social img{
     color: black;
     text-decoration: none;
     font-size: 18px;
-    padding: 15px 30px;
+    padding: 15px 30px; margin: 200px, 0
 }
 
 
