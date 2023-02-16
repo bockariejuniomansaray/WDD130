@@ -87,12 +87,12 @@ h2 {
     border-radius: 5px; font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 18px;
 }
-/*.card-img {
+.card-img {
     width: 100%;
     border: 10px solid #d9c2a3;
     transition: .5s;
     box-shadow: 5px 5px 10px #6f7364;
-}*/
+}
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
@@ -100,7 +100,7 @@ h2 {
 .home-grid{display:grid;
     grid-template-columns: repeat(10, 1fr);
 }
-.card-img, .mountains{border: 10px solid #d9c2a3;width: 100%;}
+.mountains{border: 10px solid #d9c2a3; width: 100%;}
 .mountain{
     width: 100%;
     grid-column: 2/7;
@@ -129,14 +129,16 @@ footer .social img{
     padding: 15px;
 }
 .rivers-card{
+    margin: 200px 0;
     grid-column: 2/4;
     grid-row: 2/3;
 }
 .camping-card{
+    margin: 200px 0;
     grid-column: 5/7;
     grid-row: 2/3;
 }
-.rapids-card{
+.rapids-card{margin: 200px 0;
     grid-column: 8/10;
     grid-row: 2/3;
 }
