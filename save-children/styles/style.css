@@ -134,7 +134,7 @@ footer .social img{
 }
 .camping-card{
     margin: 200px 0;
-    grid-column: 7/9;
+    grid-column: 5/7;
     grid-row: 2/3;
 }
 .rapids-card{margin: 200px 0;
@@ -151,7 +151,7 @@ footer .social img{
 
 
 header {
-    background-color:red;
+    background-color:lightblue;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -262,18 +262,4 @@ footer p a:hover {
     footer {
         margin-top: 25px;
     }
-}
-            
-#feedback {
-    background-color: antiquewhite;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: .5em;
-    /* make this element invisible until we are ready for it */
-    display: none;      
-}
-.moveDown {
-    margin-top: 3em;
 }
