@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,500&family=Tajawal:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=c&display=swap');
 
-body {background-color: white;  font-family: Raleway, Arial, sans-serif;
+body  {
+    background-color: white;  
+    font-family: Tajawa, sans-serif;
     font-size: 22px;
     margin: 0;
-    padding: 0;
-}
+    padding: 0;}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Archivo Narrow', sans-serif;
+   }
 h2 {
     margin: 0;
 }
