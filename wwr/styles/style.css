@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,500&family=Tajawal:wght@200&display=swap');
 form {
     /* Center the form on the page */
     margin: 0 auto;
@@ -63,8 +64,6 @@ form {
        between the labels and their text fields */
     margin-left: 0.5em;
   }
-
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,500&family=Tajawal:wght@200&display=swap');
 
 body {background-color: white;  font-family: Raleway, Arial, sans-serif;
     font-size: 22px;
