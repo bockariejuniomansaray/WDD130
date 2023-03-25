@@ -12,7 +12,7 @@
 }
 
 .grid2 {
-  background-color: white;
+  background-color: lightgreen;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column: 2 / 11;
@@ -24,7 +24,7 @@
 }
 
 .grid3 {
-  background-color: lightgreen;
+  background-color: lightblue;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column: 7 / 13;
@@ -85,7 +85,7 @@ input {
 
 button {
   width: 100%;
-  background-color: lightblue;
+  background-color: blue;
   font-size: 1.5em;
 }
 
