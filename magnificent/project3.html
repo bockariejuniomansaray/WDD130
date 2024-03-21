@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<head>
+<style>
+    body{
+        font-family: tahoma;
+        text-align: center;
+    }
+    header{
+        letter-spacing: 6px;
+        color:white;
+        background: royalblue;
+        padding: 20px;
+        background: linear-gradient(220deg,  pink 48%, purple 40%)
+    }
+    h2{
+        font-size: 2em;
+        width: 100%;
+    }
+    section{
+        padding:30px;
+        margin-bottom: 40px;
+        color: black;
+            font-family: "arial black", sans-serif;
+            background: lightblue;
+    }
+    .container{
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card{
+        border: 1px solid #ccc;
+        background-color: ivory;
+        margin: 25px;
+        padding: 25px;
+        box-shadow: 6px 6px 6px rgba(0,0,0,0.3);
+    }
+    @media screen and (min-width: 50em) {
+        .card{
+            flex-basis: 325px;
+        }
+        header h1{
+            font-size: 5em;
+        }
+        
+    }
+    .icons{
+        font-size: 8em;
+        padding: 25px;
+    }
+    button, .button{
+        background:royalblue;
+        border: 0;
+        color:white;
+        padding: 10px;
+        width: 100px;
+        margin-bottom:10px;
+    }
+    .blue{
+        background: teal;
+    }
+    td{
+        padding:10px;
+    }
+    table{
+        margin: auto;
+    }
+    #my-order{
+        background-color: #29c1c4;
+        padding: 25px;
+        display: none;
+    }
+    footer{
+        padding: 30px;
+        background: violet
+    }
+</style>
+<title>cute cupcakes for best besties</title>
+</head>
+<body>
+    <header>
+        <h1>
+            MAGNIFICENT INDUSTRIES INC.
+        </h1>
+        <h4>
+            Cute Cupcakes For Best Besties
+        </h4>
+         
+    </header>
+    <section>
+        <h2> Welcome in Magnificent cute Cupcakes for best besties &#x1f60e;</h2>
+        <p>
+            <i>Here we offer you the best of cupcake, and provided you with sweet and quality cupcake. and we also make all type of cake.
+            <p> example of cakes,</p>
+            <lo>
+                <li>
+                    Birthday cake.
+                </li>
+                <li>
+                    Marriage cake
+                </li>
+                <li>
+                    Party cake, etc..
+                </li>
+            </lo>
+            </i>
+        </p>
+        <br><br>
+        <P>
+            ABOUT US: Founded in 2020, by Bockarie Junior Mansaray. We've served over 100 clients and delivered over 10,000 tasty treats. and we are knowned through out the country and beyond for our quality services.
+        </P>
+    </section>
+    <section class=" blue container">
+        <h2>
+            OUR SERVICES://
+        </h2>
+        <article class="card">
+            <div class="icons">&#x1f60e;</div>
+            <h3>
+                BIRTHDAY CAKE
+            </h3>
+            <p> At magnificent cute cup cake for best besties, we provide tasty and quality birthday cake for our customer.</p>
+            <button>contact</button>
+        </article>
+        <article class="card">
+            <div class="icons">&#10084;</div>
+            <h3>
+                Bockarie Junior Mansaray
+            </h3>
+            <p>mag. web developer - creat beautiful website for businesses and also develope some apps, and help teach those that are intrested in programming.</p>
+            <button>contact</button>
+        </article>
+    </section>
+    <section>
+        <table>
+            <h2>
+                MY ORDER FORM
+            </h2>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" size="25" name="my-name"> </td>
+            </tr>
+            
+            <tr>
+                <td>Address</td>
+                <td><input type="text" size="25" name="my-address"></td>
+            </tr>
+            <tr>
+            <tr>Favourite drink:</tr>
+            <td>
+                <select>
+                    <option>milk</option>
+                    <option>coffee</option>
+                    <option>tea</option>
+                </select>
+            </td>
+            </tr>
+
+            <tr>
+                <td>quantity: </td>
+                <td>
+                    <input type="number" name="my-quantity" value="1" min="1" max="5">
+                    <small>(max 5)</small>
+                </td>
+            </tr>
+            <tr>
+                <br>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input class="button" type="button"
+                    value="process order" onclick="placeOrder();">
+                    <input class="button" type="reset" value="clear" onclick="document.getElementById('my-order').style.display='none'";>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <form action="myfriends.html"
+    id="my-form"
+    target="_blank">
+        <h1>MAGNIFICENT FORM</h1>
+        What's the silliest ideas you have ever had?
+        <br>
+        <Input type="text" size="50">
+            <br><br>
+            <botton>submit</botton>
+            <br>
+            <div id="my-order"></div>
+    </form>
+    <footer>
+    <div>
+        <h3>Thanks for visiting.</h3>
+        <div>
+            <article>
+                <h3>:We will Get in Touch with you very soon.</h3>
+                <p>: Probably the best place to buy cupcakes in all of Freetown is.</p>
+                <h3>MAGNIFICENT CUTE Cupcakes</h3>
+            </article>
+            <article>
+                Contact Us:
+                <p>we will like to hear from you.</p>
+                <br>call or email us. <br>
+                mobial: +23273281430//
+                tel: +23231910948
+                <p>Emails: magnificentj8@gmail.com</p>
+            </article>
+        </div>
+    </div>
+    <p>&copy; 2023 Magnificent best bestie cut cupcakes.</p>
+    </footer>
+    <script>
+        function placeOrder (){
+            getElementById("my-form");
+            results= "<h3>success!</h3> Here is your order.";
+            results += " <br>Name:" + orderForm.elements["my-name"].value;
+            results += "<br>Address:" + orderForm.elements["my-address"].value;
+            results += "<br>i like to order:" + orderForm.elements["my-drink"].value;
+            result += "<br>quantity:" + orderForm.elements["my-qty"].value;
+            var orderResults = document.getElementById("my-order");
+            orderResults.style.display = "block";
+            orderResults.innerHTML = results;
+        }
+    </script>
+</body>
